@@ -6,38 +6,36 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header id="headerstyle">
-    <h1 id="logopic"><img src="jrhlogobig.jpg" alt="jrlogo"></h1>
-    <nav>
-        <ul>
-            <li><a href="http://www.mmo-champion.com" target="_blank">MMO-Champion</a></li>
-            <li><a href="https://www.wowhead.com/" target="_blank">WOWHEAD</a></li>
-            <li><a href="http://www.youtube.com" target="_blank">YouTube</a></li>
-            <li><a href="http://www.netflix.com" target="_blank">NetFlix</a></li>
-            <li><a href="http://downdetector.se/problem-storningar/telia/" target="_blank">Driftstörning</a> Telia</li>
+    <header class="headerstyle">
+    <h1 class="headerstyle" id="logo">HTML&CSS</h1>
+    <nav class="headerstyle" id="menus">
+        <ul class="headerstyle">
+            <li><a href="http://www.mmo-champion.com" target="_blank" >MMO-Champion</a></li>
+            <li><a href="https://www.wowhead.com/" target="_blank" >WOWHEAD</a></li>
+            <li><a href="http://www.youtube.com" target="_blank" >YouTube</a></li>
+            <li><a href="http://www.netflix.com" target="_blank" >NetFlix</a></li>
+            <li><a href="http://downdetector.se/problem-storningar/telia/" target="_blank">Driftstörning Telia</a></li>
         </ul>
     </nav>
-    <a href="login.html">Login</a>
+    <a class="headerstyle" id="loginlink" href="login.html">Login</a>
     </header>
-    <div id="contentbody">
-        <h2>Headline here then</h2>
-        <p>Some text in a paragraph.</p>
-    <article>
+    <div class="inline" id="contentbody">
+        <h2 id="maincontent">Headline here then</h2>
+        <p id="subtext">Some text in a paragraph.</p>
+    <article class="articles">
         <h2>Article 1 - Headline</h2>
         <p>row 1 paragraph text</p>
-        <p>row 2 paragraph text</p>
-        <img src="pexels-wendy-wei-1190297.jpg" alt="event picture">
+        <p id="optional1">row 2 paragraph text</p>
+        <p><img src="pexels-wendy-wei-1190297.jpg" alt="event picture" width="200"></p>
     </article>
-    <article>
+    <article class="articles">
         <h2>Article 2 - Headline</h2>
         <p>row 1 paragraph text</p>
         <p>row 2 paragraph text</p>
     </article>
-
     </div>
-
-<aside>
-    <h2>Another headline here then</h2>
+<aside class="inline" id="asidestyle">
+    <h2>Aside headline here</h2>
         <ul>
             <li>Sweden
             <ol>
@@ -63,7 +61,7 @@
         </ul>
 
 </aside>
-<footer>
+<footer id="footerstyle">
     <span>&#64;Eric "Zeddan" Rönnhult</span>
 </footer>
     

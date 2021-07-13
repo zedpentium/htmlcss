@@ -1,24 +1,231 @@
 body {
     font-family: sans-serif;
-    width: 1024px;
-    margin: auto;
-    
+    max-width: 1024px;
+    width: 100%;
+    height: 800px;
+    margin: 0 auto;
+    border-left: 1px solid #f2f2f2;
+    border-right: 1px solid #f2f2f2;
+    background-color: darkgrey;
   }
-/* Css, Comment code, for multi line aswell (same as C# multiline) */
-#headerstyle{
-    position: relative; 
-    top: 0px;
-    left: 0px;
-    width: 50px;
-    height: 50;
 
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+/* Css, Comment code, for multi line aswell (same as C# multiline) */
+.headerstyle{
+    position: relative;
+    width: 100%;
+    border: 1px solid #883b3b;
+    height: 100px;
+    margin: 0;
     }
 
-#logopic{
-    position: relative; 
-    top: 0px;
+#logo{
+    position: absolute;
     left: 0px;
+    text-align: center;
+    line-height: 100px;
+    height: 100px;
+    width: 200px;
+    background-color: #7e3636;
+    margin: 0;
 }
+
+
+#menus {
+    position: absolute;
+    background-color: #1fb9a5;
+    left: 200px;
+    width: 700px;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    line-height: 100px;
+    height: 100px;
+}
+
+.headerstyle ul {
+    top: 0px;
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+#menus li {
+    line-height: 100px;
+    height: 100px;
+    font-size: 12px;
+    width: 105px;
+    text-align: center;
+    background-color: #e6dcdc;
+    display: inline-block;
+    border: 2px solid #883b3b;;
+    padding: 0px;
+    margin: -3px;
+ }
+
+#loginlink{
+    position: absolute;
+    left: 900px;
+    text-align: center;
+    line-height: 100px;
+    width: 123px;
+    background-color: #1f707a;
+    margin: 0;
+ }
+
+.inline{
+    display: inline-block;
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+    
 #contentbody{
+    position: relative; 
+    width: 724px;
+    height: 650px;
+    border: 2px solid green;
+    background-color: #a89ec0;
+    padding: 10px;
+    margin: 0;
+}
+
+#asidestyle{
+    position: absolute;
+    width: 300px;
+    height: 650px;
+    padding: 10px;
+    margin: 0px;
+    border: 2px solid green;
+    background-color: #c525b0;
+}
+
+#maincontent{
+    position: relative;
+    text-align: left;
+    width: 300px;
+    height: 50px;
+    border: 2px solid #3b2f2f;
+    background-color: #aac2c5;
+}
+
+#subtext{
+    text-align: center;
+    width: 100%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #3b2f2f;
+    background-color: #aac2c5;
+}
+
+.articles{
+    display: block;
+    float: left;
+    text-align: center;
+    height: 320px;
+    width: 310px;
+    border: 2px solid #3b2f2f;
+    background-color: #aac2c5;
+    margin: 20px;
+    padding: 5px;
+}
+
+#footerstyle{
+    position: absolute;
+    top: 750px;
+    height: 68px;
+    width: 1024px;
+    border: 2px solid green;
+    background-color: #c766b2;
+}
+
+#uppercase{
+    position: relative;
+    left: 320px;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid green;
+    background-color: #c766b2;
+}
+
+#centertitleandform{
+    position: absolute;
+    width: 1024px;
+    height: 650px;
+    background-color: #a89ec0;
+}
+
+#formstyle{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(101, 141, 101);
+    background-color: #2ccccc;
+    height: 280px;
+    border-radius: 15px;
+}
+
+input{
+    display: block;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 4px;
 
 }
+
+input[type=reset] {
+    position: relative;
+    top: 50px;
+    width: 150px;
+    text-align: center;
+    border: 5px solid #db0521;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+
+button[type=submit] {
+    position: relative;
+    bottom: 80px;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 4px;
+    border: 5px solid #0d10b6;
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+
+img {
+    width: 200px;
+}
+
+
+#optional1 {
+    font-weight: bold;
+    color: blue;
+}
+
+
+li:nth-child(even) {
+        background-color: #1b0ed8;
+    }
+li:nth-child(odd) {
+        background-color: #c6c91e;
+    }
